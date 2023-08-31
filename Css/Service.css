@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color-scheme: dark;
+}
+.navcontainer{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid lightskyblue; */
+    height: 71px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8d0404;
+    /* position: fixed; */
+}
+#logoimg{
+    max-height: 30%;
+    max-width: 30%;
+    padding-left: 60px;
+    border-radius: 100%;
+    animation: forwards 5s alternate;
+}
+.header{
+    color: rgba(47, 227, 233, 0.829);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 34px;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover ::after{
+    width: 100%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: snow;
+    padding: 30px;
+    background-color: transparent;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(252, 36, 36);
+}
+nav a button:hover{
+    cursor: pointer;
+}
+nav a button{
+    background-color: rgb(231, 171, 92);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    min-height: 50px;
+    min-width: 100px;
+    margin: 0px 50px 0px 100px;
+    border-radius: 10%;
+}
+.dropbtn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 36, 36);
+}
+.dropbtn{
+    background-color: transparent;
+    border: none;
+    color: snow;
+    font-size: 15px;
+    padding: 30px;
+    /* align-items: center; */
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.droplinks{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 102, 102);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.droplinks a{
+    color: whitesmoke;
+    padding: 12px 16px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    display: block;
+    /* flex-direction: row; */
+}
+.droplinks a:hover{
+    background-color: darkred;
+}
+.dropdown:hover .droplinks{
+    display: block;
+    margin-top: 0%;
+}
+.serv{
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 40px;
+    margin-top: 5%;
+    color: paleturquoise;
+    padding-bottom: 2%;
+}
+.text{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.content{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 46);
+    padding-top: 40px;
+    padding-bottom: 3%;
+}
+.holder{
+    width: 50%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+.holdeer{
+    width: 50%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+.holdeeer{
+    width: 50%;
+    padding-left: 2%;
+}
+.heads{
+    font-size: 30px;
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align:left;
+    padding: 10px 0px 0px 0px; 
+}
+.teext{
+    padding: 20px 5px 20px 5px;
+    font-family: poppins;
+    font-weight: bold;
+    text-align:left;
+}
+.imgtxt{
+    display: flex;
+    flex-direction: row;
+}
+#img{
+    height: 300px;
+    width: 660px;
+    padding-bottom: 1%;
+    border-radius: 15px;
+}
+#Contact{ 
+    background-color: rgb(0, 39, 39);
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.contain11{
+    display: flex;
+    flex-direction: row;
+}
+section div h2{
+    font-size: 60px;
+    margin-bottom: 90px;
+}
+
+.errr{
+    font-size: 20px;
+    padding-bottom: 110px;
+}
+
+.frty{
+    padding-bottom: 60px;
+}
+
+section div a i{
+    color: springgreen;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.dryyy{
+    padding-right: 20px;
+}
+
+.dryy{
+     padding-right: 20px;
+}
+
+.forty{
+    text-decoration: none;
+    color: paleturquoise;
+    padding-left: 10px;
+}
